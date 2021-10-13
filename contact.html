@@ -7,6 +7,7 @@
          <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"> 
         <title>Contact us | CornerGuys</title>
         <style type="text/css">
+
         img{
             width: 30px;
             height: 30px;
@@ -14,7 +15,7 @@
             float: left;
         }
         #menu{
-            max-width: 100%;
+            min-width: 100%;
             height: 100px;
             background-color: #333;
             position: sticky;
@@ -129,10 +130,6 @@
             padding: 20px;
             background-color: #333;
         }
-        #hoursDiv{
-            float: right;
-            padding: 20px;
-        }
         #footer-socials{
             text-align: center;
             font-size: 50px;
@@ -189,16 +186,11 @@
             margin-left: 300px;
             margin-top: 130px;
         }
-        #hours,hr{
-            margin-left: 80px;
-            margin-top: -50px;
-        }
         #hours,h4{
             margin-left: 200px;
             font-size: 50px;
         }
         #hours{
-            margin-left: 300px;
             margin-top: 10px;
             height: 950px;
             width: 900px;
@@ -261,10 +253,6 @@
             flex-direction: column;
             margin-left: 25%;
         }
-        #hours{
-            margin-top: 100px;
-            margin-left: 120px;
-        }
          }
 
          @media screen and (min-width:500px) and (max-width:1700px) {
@@ -273,25 +261,44 @@
             flex-direction: column;
             margin-left: 100px;
         }
-
-        .form{
-            height: 430px;
+        .hello, #hours{
+            margin-left: 10px;
+        }
+        .hello, .form{
+            margin-left: 10px;
+            height: 700px;
+        }
+        #name{
+            height:50px;
         }
 
-        form{
-            height: 10px;
+        #email{
+            height:50px;
         }
 
-        #hours{
-            margin-top: 100px;
-            margin-left: 130px;
-            height: 600px;
+        #message{
+            height: 300px;
         }
-        h6{
-            font-size: 50px;
+        button{
+            height: 50px;
         }
          }
-
+         @media screen and (min-width:300px) and (max-width:1160px) {
+                a{
+                    font-size: 50px;
+                    height: 600px;
+                    width: 1000px;
+                    margin-left: 100px;
+                    padding: 800px;
+                    border-radius: 400px;
+                }
+                #aa{
+                    margin-left: 20px;
+                }
+                #menu{
+                    height: 135px;
+                }
+            }
         </style>
     </head>
 
@@ -317,12 +324,12 @@
                         <textarea id="message" name="message" placeholder="Message"></textarea>
             
                         <button id="a" type="submit">Send</button>
-                        <input type="hidden" name="_next" value="https://cornerguysdev.github.io/hi/thankyou.html">
+                        <input type="hidden" name="_next" value="https://yourdomain.co/https://urgayyy.github.io/hi/thankyou.html">
                </form>
                 </div> 
 
-                <p class="p">Or give us a call</p>
-                <p id="p">+1(123)-456-7890</p>
+                    <p class="p">Or give us a call</p>
+                    <p id="p">+1(123)-456-7890</p>
 
             </div>
 
