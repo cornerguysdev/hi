@@ -1,334 +1,146 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet"> 
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-         <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">  
-        <script src="https://kit.fontawesome.com/969b6322f6.js" crossorigin="anonymous"></script>
-        <title>Home | CornerGuys</title>
-        <link rel="stylesheet" href="hello.css">
+        <title>Thank you! | CornerGuys</title>
         <style>
-            @media screen and (min-width:300px) and (max-width:1160px) {
-                a{
-                    font-size: 50px;
-                    height: 600px;
-                    width: 1000px;
-                    margin-left: 100px;
-                    padding: 80px;
-                    border-radius: 400px;
-                }
-
-            #banner{
-            background: url("helloooo.jpg");
-            background-position: center;
-            background-size: cover;
-            width: 53.5vh;
-            height: 100vh;
-        }
-
-                    @media screen and (min-width:300px) and (max-width:1160px) {
-
-            #banner{
-            background: url("helloooo.jpg");
-            background-position: center;
-            background-size: cover;
-            width: 53.5vh;
-            height: 100vh;
-        }
-
-        }
-
-        @media screen and (min-width:570px) and (max-width:1170px) {
-
-            #banner{
-            background: url("helloooo.jpg");
-            background-position: center;
-            width: 100%;
-            height: 100%;
-        }
-
-        }
-
-                @media screen and (min-width:200px) and (max-width:1160px) {
-
-            #banner{
-            background: url("helloooo.jpg");
-            background-position: center;
-            width: 110%;
-            height: 100%;
-        }
-
-        }
-
-            @media screen and (min-width:200px) and (max-width:1060px) {
-
-            #banner{
-            background: url("helloooo.jpg");
-            background-position: center;
-            width: 115%;
-            height: 100%;
-        }
-
-        }
-
-        }
             body{
-                background-color: #f0f0f0;
+                background-color: #444;
+                animation: page-anim 2s;
+            }
+            @keyframes page-anim{
+                from{
+                    opacity: -50%;
+                }
+                to{
+                    opacity: 100%;
+                }
+            }
+            h1{
+                text-align: center;
+                margin-top: 20%;
+                font-size: 100px;
+                color: rgb(182, 182, 182);
+            }
+            a{
+                padding: 25px;
+                border-radius: 20px;
+                text-decoration: none;
+                background-color: #777;
+                color: rgb(182, 182, 182);
+                text-align: center;
+                width: 250px;
+                font-size: large;
+                margin-left: 45%;
+                transition: 500ms;
+                position: absolute;
+                bottom: 20%;
+            }
+            a:hover{
+                background-color: #555;
+                color: rgb(131, 131, 131);
+                box-shadow: 0 0 30px #111;
+                bottom: 23%;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+            }
+            #h1{
+                 display: flex; flex-direction: row;
+                 text-align: center;
+                 margin-top: -200px;
             }
 
-            .containerr{
-              margin: auto;
-              width: 50%;
-              padding: 10px;
+            #t{ 
+                animation: t-anim 2000ms infinite; animation-delay: 2s;
+                margin-left: 42.5%;
             }
-
-         .containerr{
-            max-width: 1125px;
-            min-width: 1125px;
-            width: 1000px;
-            background-color: white;
-                              }
-        .social-icon{
-            height: 500px;
-            width: 500px;
-        }
-        #socials{
-            background-color: #333;
-            height: 100px;
-            width: 100%;
-        }
-        #img2{
-            float: right;
-            padding-left: 15px;
-            max-height: 500px;
-        }
-        .text{
-            text-align: start;
-        }
-        img{
-            float: left;
-            padding-right: 15px;
-            width: 400px;
-            height: 400px;
-        }
-
-        #about-us{
-            background-color:white;
-        }
-        #menu{
-            width: 100%;
-            height: 100%;
-            background-color: #333;
-            position: sticky;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            border-radius: 2.5px;
-        }
-        #paragraph{
-          padding:8px;
-          margin-left: 5px;
-          margin-right: 5px;
-        }
-        #about-uss{
-            background-color: #d8d8d8;
-        }
-        #banner{
-            background: url("bannerrpic.jpg");
-            background-position: center;
-            background-size: cover;
-            height: 100vh;
+             @keyframes t-anim{
+                 25%{ 
+                     margin-top: 450px; 
+                    } 
                 }
 
-        h1{
-            font-size: 100px;
-            color: white;
-            text-align: center;
-            position: relative;
-            top: 40%;
-            font-family: 'Orbitron', sans-serif;
-            background-color: rgba(85, 85, 85, 0.685);
-            letter-spacing: 1px;
-        }
-        h2{
-            text-align: center;
-            font-family: 'Oswald', sans-serif;
-        }
-        p{
-            font-size: 30px;
-            color: rgb(104, 104, 104);
-        }
-        #a{
-            color: #777;
-            background-color: #555;
-            padding: 20px;
-            border-radius: 10px;
-            margin-left: 5px;
-            position: relative;
-            top: 40px;
-            text-decoration: none;
-            transition: 250ms;
-            transform: scale(1.05);
-        }
-        #aa{
-            color: #777;
-            background-color: #555;
-            padding: 20px;
-            border-radius: 10px;
-            margin-left: 15px;
-            position: relative;
-            top: 40px;
-            text-decoration: none;
-            transition: 250ms;
-            transform: scale(1.05);
-        }
-        #a:hover{
-            color: #999;
-            background-color: #777;
-        }
-        #aa:hover{
-            color: #999;
-            background-color: #777;
-        }
-        .hr{
-            width: 700px;
-        }
-
-        .fas{
-            font-size: 160px;
-            margin-top: 10px;
-            margin-left: 100px;
-            transition: linear;
-            transition: 600ms;
-            text-decoration: none;
-        }
-        .fas:hover{
-            color:white;
-            transform: scale(0.75);
-        }
-        .fab{
-            font-size: 160px;
-            margin-top: 10px;
-            margin-left: 100px;
-            transition: linear;
-            transition: 600ms;
-            text-decoration: none;
-        }
-        .fab:hover{
-            color:white;
-            transform: scale(0.75);
-        }
-        .socials{
-            background-color: #333;
-            height: 200px;
-            width: 100%;
-            transition: 450ms;
-        }
-
-        .socials:hover{
-            box-shadow: 0 0 60px rgb(0, 0, 0);
-            transform: scale(1.05);
-        }
-        
-        @keyframes fadein{
-            from{
-                opacity: 0;
-                margin-left: 1500px;
-            }
-            to{
-                opacity: 1;
-                margin-left: 0px;
-            }
-        }
-        .containerrr{
-            animation: fadein 1500ms;
-        }
-        .footerTxt{
-            color: white;
-            text-align: center;
-        }
-        .footerHr{
-            color: #111;
-            width: 700px;
-        }
-        #contactUsDiv{
-            float: left;
-            padding: 20px;
-            background-color: #333;
-        }
-        #hoursDiv{
-            float: right;
-            padding: 20px;
-        }
-        #footer-socials{
-            text-align: center;
-            font-size: 50px;
-        }
-        footer{
-            height: 350px;
-            width:100%;
-            background-color: #333;
-            max-width: 1125px;
-            min-width: 1125px;
-        }
-        h3{
-            font-size: 50px;
-            text-align: center;
-        }
+             #h{
+                  animation: h-anim 2000ms infinite;
+                   animation-delay: 2.1s; 
+                } 
+                @keyframes h-anim{
+                 25%{ margin-top: 450px; 
+                      } 
+                }
+            #a{
+                animation: a-anim 2000ms infinite;
+                 animation-delay: 2.2s; 
+                } 
+                @keyframes a-anim
+                { 
+                 25%{
+                    margin-top: 450px;
+                        } 
+                    } 
+            #n{
+                 animation: n-anim 2000ms infinite;
+                    animation-delay: 2.3s;
+                    }
+                     @keyframes n-anim{
+                        25%{
+                            margin-top: 450px;
+                            } 
+                } 
+            #k{
+                 animation: k-anim 2000ms infinite;
+                  animation-delay: 2.4s; 
+                } 
+            @keyframes k-anim{
+                 25%{
+                      margin-top: 450px; 
+                    } 
+                } 
+            #y{
+                 animation: y-anim 2000ms infinite;
+                  animation-delay: 2.5s; 
+                } 
+            @keyframes y-anim{
+                 25%{
+                      margin-top: 450px; 
+                    }
+                } 
+                #o{
+                     animation: o-anim 2000ms infinite;
+                      animation-delay: 2.6s; 
+                    } 
+                @keyframes o-anim{
+                     25%{
+                          margin-top: 450px; 
+                        } 
+                    } 
+                #u{
+                     animation: u-anim 2000ms infinite;
+                      animation-delay: 2.7s; 
+                    } 
+                @keyframes u-anim{
+                     25%{
+                          margin-top: 450px;
+                         }
+                     } 
         </style>
     </head>
-        <div id="menu">
-        <a id="aa" href="index.html">Home</a>
-        <a id="a" href="Gallery.html">Gallery</a>
-        <a id="a" href="Reviews.html">Reviews</a>
-        <a id="a" href="contact.html">Contact us</a><br><br><br><br><br>
+
+    <body>
+        <div>
+        <div id="h1"> 
+            <h1 id="t">T</h1> 
+            <h1 id="h">h</h1> 
+            <h1 id="a">a</h1> 
+            <h1 id="n">n</h1> 
+            <h1 id="k">k</h1>
+            <h1 id="y">y</h1> 
+            <h1 id="o">o</h1> 
+            <h1 id="u">u</h1> 
         </div>
-
-        <div class="containerrr">
-        <section id="banner">
-        <h1>CornerGuys</h1>
-        </section><br></div><br>
-
-
-        <div class="containe">
-            <div class="containerr">
-                <div id="about-us">
-                    <h3>WELCOME TO OUR SITE!</h3>
-                    <br><h2>About us</h2><hr class="hr"><br>
-                    <div id="paragraph">
-                        <img src="backgroundpic.jpg">
-                        <div class="text">
-                        <p> If you're on the hunt for a professional Development Company you've come to the right place.
-                            We provide exceptional app and web development services to all our clients, at an <b>AMAZING PRICE</b>.
-                             We help to design your idea and make it come to life. Here at CornerGuys we solve problems and develop
-                         products that help position our clients ahead of their competition.
-                         Through focused research and preparation, we understand the vision and requirements of each project,
-                         which means we are able to deliver results that make a big impact.</p><br>
-                    </div></div>
-                </div><br><br>
-        
-                <div class="socials">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram-square"></i>
-                <i class="fas fa-envelope-square"></i>
-                <i class="fab fa-yelp"></i>
-                </div><br><br>
-        
-                <div id="about-us">
-                    <br><h2>Services offered</h2><hr class="hr"><br>
-                    <div id="paragraph">
-                      <img id="img2" src="pic.jpg">
-                      <div class="text">
-                        <p>
-                            If you're on the hunt for a professional Development Company you've come to the right place.
-                             We provide exceptional app and web development services to all our clients, at an <b>AMAZING PRICE</b>.
-                              We help to design your idea and make it come to life.</p><br><br><br><br><br>
-                    </div></div>
-                    </div><br><br><br><br><br>
-                </div>
+            <a href="index.html"><b>Back to home page<b></a>
         </div>
-        
     </body>
+
 </html>
