@@ -1,14 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet"> 
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-         <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"> 
-        <title>Gallery | CornerGuys</title>
-        <style type="text/css">
+<head>
+    <title>Gallery | Excelflooring</title>
+    <style>
         #menu{
-            max-width: 100%;
+            min-width: 100%;
             height: 100px;
             background-color: #333;
             position: sticky;
@@ -16,42 +12,6 @@
             left: 0px;
             right: 0px;
             border-radius: 2.5px;
-        }
-        #banner{
-            background: url("helloooo.jpg");
-            background-position: center;
-            background-size: cover;
-            height: 100vh;
-        }
-        #bannerr{
-            background: url("wepic.jpg");
-            background-position: center;
-            background-size: cover;
-            height: 100vh;
-        }
-
-        .we{
-            font-size: 200px;
-            color: white;
-            text-align: center;
-            position: relative;
-            top: 40%;
-        }
-        h1{
-            font-size: 100px;
-            color: white;
-            text-align: center;
-            position: relative;
-            top: 40%;
-            font-family: 'Orbitron', sans-serif;
-        }
-        h2{
-            text-align: center;
-            font-family: 'Oswald', sans-serif;
-        }
-        p{
-            font-size: 30px;
-            color: rgb(104, 104, 104);
         }
         a{
             color: #777;
@@ -69,46 +29,6 @@
             background-color: #777;
             padding: 10px;
             border-radius: 5px;
-        }
-        hr{
-            width: 1700px;
-        }
-        @keyframes fadein{
-            from{
-                opacity: 0;
-            }
-            to{
-                opacity: 1;
-            }
-        }
-        .containerrr{
-            animation: fadein 1500ms;
-        }
-        .footerTxt{
-            color: white;
-            text-align: center;
-        }
-        .footerHr{
-            color: #111;
-            width: 700px;
-        }
-        #contactUsDiv{
-            float: left;
-            padding: 20px;
-            background-color: #333;
-        }
-        #hoursDiv{
-            float: right;
-            padding: 20px;
-        }
-        #footer-socials{
-            text-align: center;
-            font-size: 50px;
-        }
-        footer{
-            height: 350px;
-            width:100%;
-            background-color: #333;
         }
         #a{
             color: #777;
@@ -131,7 +51,7 @@
             position: relative;
             top: 40px;
             text-decoration: none;
-            transition: 750ms;
+            transition: 250ms;
             transform: scale(1.05);
         }
         #a:hover{
@@ -142,55 +62,57 @@
             color: #999;
             background-color: #777;
         }
-        h6{
-            text-align: center; 
-            font-size: 100px;
-        }
-        h3{
+        h1{
             text-align: center;
-            font-size: 50px;
-            margin-top: -200px;
+            font-size: 75px;
         }
-        #gallery_cards{
-            display: flex;
-            flex-direction: row;
-        }
-        #gallery_cards, img{
+        hr{
             width: 50%;
-            margin-left:35px;
-            margin-top: 20px;
-            border-radius: 10px;
         }
-        #img{
-            margin-left: 200px;
+        #pic1{
+            width: 100%;
+            height: 500px;
+            background-image: url();
         }
-        </style>
-    </head>
-
-    <body>
-        <div id="menu">
+        @media screen and (min-width:0px) and (max-width:1150px){
+            #menu{
+                height: 160px;
+            }
+            #a{
+                top: 40%;
+                padding: 30px;
+                font-size: 30px;
+                padding-right: 100px;
+            }
+            #aa{
+                top: 40%;
+                padding: 30px;
+                font-size: 30px;
+                padding-right: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
         <a id="aa" href="index.html">Home</a>
         <a id="a" href="Gallery.html">Gallery</a>
-        <a id="a" href="contact.html">Contact us</a><br><br><br><br><br>
-        </div>
-        
-        <h6>Gallery</h6>
-        <h3>examples of our work</h3><hr><br><br><br>
+        <a id="a" href="contact.html">Contact us</a>
+    </div>
 
-        <div id="gallery_cards">
-            <img id="img" src="ss1.png" alt="">
-            <img src="ss1.png" alt="">
-            <img src="ss1.png" alt="">
-        </div>
-        <div id="gallery_cards">
-            <img id="img" src="ss1.png" alt="">
-            <img src="ss1.png" alt="">
-            <img src="ss1.png" alt="">
-        </div>
-        <div id="gallery_cards">
-            <img id="img" src="ss1.png" alt="">
-            <img src="ss1.png" alt="">
-            <img src="ss1.png" alt="">
-        </div>
-    </body>
+    <h1>Gallery</h1><hr>
+
+    <div id="pic1">
+
+    </div>
+
+    <div id="divide">
+
+    </div>
+
+    <div id="pic2">
+
+    </div>
+
+</body>
 </html>
