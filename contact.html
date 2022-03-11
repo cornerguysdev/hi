@@ -247,9 +247,9 @@
             height: 35px;
          }
 
-         @media screen and (width:300px) and (width:600px) {
+         @media screen and (min-width:300px) and (max-width:500px) {
             #menu{
-                height: 200px;
+                height: 600px;
             }
             #aa{
                 padding: 50px;
@@ -281,13 +281,63 @@
             h6{
                 font-size: 55;
             }
+            #name{
+            margin-top: -10px;
+            height: 75px;
+            font-size: 35px;
+            }
+
+            #email{
+                height:75px;
+                font-size: 35px;
+            }
+
+            #message{
+                margin-top: 15px;
+                max-height: 1500px;
+                max-width: 830px;
+                min-height: 150px;
+                min-width: 830px;
+                height: 150px;
+                width: 830px;
+                font-size: 35px;
+            }
+            button{
+                height: 50px;
+                margin-top: -10px;
+                font-size: 35px;
+            }
+            .form{
+                height: 530px;
+            }
          }
+         
+         @media screen and (min-width:0px) and (max-width:1150px){
+            #menu{
+                height: 160px;
+            }
+            #a{
+                top: 40%;
+                padding: 30px;
+                font-size: 30px;
+                padding-right: 100px;
+            }
+            #aa{
+                top: 40%;
+                padding: 30px;
+                font-size: 30px;
+                padding-right: 100px;
+            }
+            button{
+                height: 60px;
+            }
+        }
         </style>
     </head>
 
     <body>
         <div id="menu">
-        <a id="aaa" href="index.html">Home</a>
+        <a id="aa" href="index.html">Home</a>
         <a id="aa" href="Gallery.html">Gallery</a>
         <a id="aa" href="contact.html">Contact us</a><br><br><br><br><br>
         </div>
@@ -306,7 +356,7 @@
                         <textarea id="message" name="message" placeholder="Message"></textarea>
             
                         <button id="a" type="submit">Send</button>
-                        <input type="hidden" name="_next" value="https://wwebsite.github.io/website/thankyou.html">
+                        <input type="hidden" name="_next" value="https://yourdomain.co/https://cornerguysdev.github.io/hi/thankyou.html">
                </form>
                 </div> 
 
